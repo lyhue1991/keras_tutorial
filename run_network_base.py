@@ -23,7 +23,7 @@ outputdir  = './aa_network_result_' + job_name
 
 
 max_words = 10000  # We will only consider the top 10,000 words in the dataset
-maxlen = 5000  # We will cut reviews after 100 words
+maxlen = 100  # We will cut reviews after 100 words
 
 embedding_dim = 8 
 
